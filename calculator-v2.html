@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Russell's Calculator</title>
+
+      <link rel="stylesheet" href="styles/calculator-v2.css">
+
+  </head>
+  <body>
+    
+    <p class="js-screen screen">
+    </p>
+
+    <p>
+      <button class="js-number-button-1 number-button"; onclick="
+      updateCalculation('1')";
+      onmousedown="
+      activateLightUp('1')";
+      onmouseup="
+      deactivateLightUp('1')";
+      >1</button>
+
+      <button class="js-number-button-2 number-button"; onclick="
+      updateCalculation('2')";
+      onmousedown="
+      activateLightUp('2')";
+      onmouseup="
+      deactivateLightUp('2')";
+      >2</button>
+      </button>
+
+      <button class="js-number-button-3 number-button"; onclick="
+      updateCalculation('3')";
+      onmousedown="
+      activateLightUp('3')";
+      onmouseup="
+      deactivateLightUp('3')";
+      >3</button>
+      </button>
+
+      <button class="number-button operation-button"; 
+      onclick="
+      updateCalculation('+')";
+      >+</button>
+    </p>
+
+    <p>
+      <button class="js-number-button-4 number-button"; onclick="
+      updateCalculation('4')";
+      onmousedown="
+      activateLightUp('4')";
+      onmouseup="
+      deactivateLightUp('4')";
+      >4</button>
+
+      <button class="js-number-button-5 number-button"; onclick="
+      updateCalculation('5')";
+      onmousedown="
+      activateLightUp('5')";
+      onmouseup="
+      deactivateLightUp('5')";
+      >5</button>
+
+      <button class="js-number-button-6 
+      number-button"; onclick="
+      updateCalculation('6')";
+      onmousedown="
+      activateLightUp('6')";
+      onmouseup="
+      deactivateLightUp('6')";
+      >6</button>
+      </button>
+
+      <button class="number-button operation-button"; onclick="
+      updateCalculation('-');
+      "> 
+        -
+      </button>
+    </p>
+
+    <p>
+      <button class="js-number-button-7 number-button"; onclick="
+      updateCalculation('7')";
+      onmousedown="
+      activateLightUp('7')";
+      onmouseup="
+      deactivateLightUp('7')";
+      >7</button>
+
+      <button class="js-number-button-8 number-button"; onclick="
+      updateCalculation('8')";
+      onmousedown="
+      activateLightUp('8')";
+      onmouseup="
+      deactivateLightUp('8')";
+      >8</button>
+
+      <button class="js-number-button-9 number-button"; onclick="
+      updateCalculation('9')";
+      onmousedown="
+      activateLightUp('9')";
+      onmouseup="
+      deactivateLightUp('9')";
+      >9</button>
+
+      <button class="number-button operation-button"; onclick="
+      updateCalculation('*');
+      "> 
+        *
+      </button>
+    </p>
+
+    <p>
+      <button class="js-number-button-0 number-button"; onclick="
+      updateCalculation('0')";
+      onmousedown="
+      activateLightUp('0')";
+      onmouseup="
+      deactivateLightUp('0')";
+      >0</button>
+
+      <button class=" 
+      number-button"; onclick="
+      updateCalculation('.')";
+      >.</button>
+
+      <button class="number-button" onclick="
+        evaluateCalculation()
+      "> 
+        =
+      </button>
+
+      <button class="number-button operation-button"; onclick="
+      updateCalculation('/');
+      "> 
+        /
+      </button>
+    </p>
+
+    <p>
+      <button class="js-number-button-← 
+      number-button reset-button"; onclick="
+      backspace();"
+      onmousedown="
+      activateLightUp('←')";
+      onmouseup="
+      deactivateLightUp('←')";
+      >←</button>
+
+      <button class="js-number-button-Reset number-button reset-button"; onclick="
+      calculation = '';
+      updateCalculation(calculation);"
+      onmousedown="
+      activateLightUp('Reset')";
+      onmouseup="
+      deactivateLightUp('Reset')";
+      >Reset</button>
+    </p>
+
+    <script src="scripts/calculator-v2.js"></script>
+
+  </body>
+
+</html>
+
+
+
+
